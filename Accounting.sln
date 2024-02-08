@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accounting_EF_Base", "Accou
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accounting_EF_DAL", "Accounting_EF_DAL\Accounting_EF_DAL.csproj", "{B5E7F6B5-FE56-47BF-8827-2C8E8897D703}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF_DTO", "EF_DTO\EF_DTO.csproj", "{836BBBE7-9A81-447C-8A6D-ACE3AD70E7DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B5E7F6B5-FE56-47BF-8827-2C8E8897D703}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5E7F6B5-FE56-47BF-8827-2C8E8897D703}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5E7F6B5-FE56-47BF-8827-2C8E8897D703}.Release|Any CPU.Build.0 = Release|Any CPU
+		{836BBBE7-9A81-447C-8A6D-ACE3AD70E7DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{836BBBE7-9A81-447C-8A6D-ACE3AD70E7DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{836BBBE7-9A81-447C-8A6D-ACE3AD70E7DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{836BBBE7-9A81-447C-8A6D-ACE3AD70E7DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
