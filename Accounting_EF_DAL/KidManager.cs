@@ -30,11 +30,6 @@ namespace Accounting_EF_DAL
         {
             _ctx.Kids.Add(kid);
             _ctx.SaveChanges();
-
-            if (kid.Siblings != null)
-            {
-                // TODO add the sibling relationships
-            }
         }
 
         /// <summary>
