@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Accounting_EF_Base\Accounting_EF_Base.csproj" />
+    <ProjectReference Include="..\EF_DTO\EF_DTO.csproj" />
   </ItemGroup>
 
 </Project>

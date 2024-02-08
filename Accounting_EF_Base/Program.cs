@@ -1,4 +1,4 @@
-﻿using Accounting_EF_Base.Entities;
+﻿using EF_DTO;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
