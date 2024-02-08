@@ -1,4 +1,4 @@
-﻿using Accounting_EF_Base.Entities;
+﻿using EF_DTO;
 using Accounting_EF_Base;
 
 namespace Accounting_EF_DAL

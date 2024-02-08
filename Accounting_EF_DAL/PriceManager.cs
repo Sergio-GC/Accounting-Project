@@ -1,5 +1,5 @@
 ﻿using Accounting_EF_Base;
-using Accounting_EF_Base.Entities;
+using EF_DTO;
 
 namespace Accounting_EF_DAL
 {
