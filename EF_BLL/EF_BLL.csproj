@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Accounting_EF_DAL\Accounting_EF_DAL.csproj" />
+    <ProjectReference Include="..\EF_DTO\EF_DTO.csproj" />
+  </ItemGroup>
+
+</Project>
