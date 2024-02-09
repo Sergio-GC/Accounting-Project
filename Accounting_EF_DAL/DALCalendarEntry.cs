@@ -3,11 +3,11 @@ using EF_DTO;
 
 namespace Accounting_EF_DAL
 {
-    public class CalendarEntryManager
+    public class DALCalendarEntry
     {
         private readonly AccountingContext _ctx;
 
-        public CalendarEntryManager(AccountingContext ctx)
+        public DALCalendarEntry(AccountingContext ctx)
         {
             _ctx = ctx;
         }

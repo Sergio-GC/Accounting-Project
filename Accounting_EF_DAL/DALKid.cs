@@ -3,11 +3,11 @@ using Accounting_EF_Base;
 
 namespace Accounting_EF_DAL
 {
-    public class KidManager
+    public class DALKid
     {
         private readonly AccountingContext _ctx;
 
-        public KidManager(AccountingContext ctx)
+        public DALKid(AccountingContext ctx)
         {
             _ctx = ctx;
         }

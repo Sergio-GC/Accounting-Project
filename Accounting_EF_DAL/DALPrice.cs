@@ -3,11 +3,11 @@ using EF_DTO;
 
 namespace Accounting_EF_DAL
 {
-    public class PriceManager
+    public class DALPrice
     {
         private readonly AccountingContext _ctx;
 
-        public PriceManager(AccountingContext ctx)
+        public DALPrice(AccountingContext ctx)
         {
             _ctx = ctx;
         }
