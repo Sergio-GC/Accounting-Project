@@ -3,7 +3,7 @@ using EF_DTO;
 
 namespace EF_BLL
 {
-    public class PriceManager
+    public class PriceManager : IPriceManager
     {
         private readonly IDALPrice _PriceManager;
 
@@ -40,7 +40,7 @@ namespace EF_BLL
         public List<Price> GetCurrentPrices()
         {
             List<Price> prices = GetPrices();
-           return prices.Where(p => (p.EndDate == null || p.EndDate > DateTime.Now) && p.StartDate <= DateTime.Now).ToList();
+            return prices.Where(p => (p.EndDate == null || p.EndDate > DateTime.Now) && p.StartDate <= DateTime.Now).ToList();
         }
 
 
