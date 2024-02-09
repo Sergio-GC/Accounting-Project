@@ -3,7 +3,7 @@ using EF_DTO;
 
 namespace Accounting_EF_DAL
 {
-    public class DALCalendarEntry
+    public class DALCalendarEntry : IDALCalendarEntry
     {
         private readonly AccountingContext _ctx;
 
@@ -30,7 +30,7 @@ namespace Accounting_EF_DAL
         /// <returns>CalendarEntry</returns>
         public CalendarEntry GetEntry(int id)
         {
-            return _ctx.CalendarEntries.Single(ce =>  ce.Id == id);
+            return _ctx.CalendarEntries.Single(ce => ce.Id == id);
         }
 
 

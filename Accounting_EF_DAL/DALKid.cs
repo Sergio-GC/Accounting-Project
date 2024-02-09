@@ -3,7 +3,7 @@ using Accounting_EF_Base;
 
 namespace Accounting_EF_DAL
 {
-    public class DALKid
+    public class DALKid : IDALKid
     {
         private readonly AccountingContext _ctx;
 

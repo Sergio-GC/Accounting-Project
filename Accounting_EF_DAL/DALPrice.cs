@@ -3,7 +3,7 @@ using EF_DTO;
 
 namespace Accounting_EF_DAL
 {
-    public class DALPrice
+    public class DALPrice : IDALPrice
     {
         private readonly AccountingContext _ctx;
 

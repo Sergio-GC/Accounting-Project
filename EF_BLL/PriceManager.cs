@@ -5,9 +5,9 @@ namespace EF_BLL
 {
     public class PriceManager
     {
-        private readonly DALPrice _PriceManager;
+        private readonly IDALPrice _PriceManager;
 
-        public PriceManager(DALPrice priceManager)
+        public PriceManager(IDALPrice priceManager)
         {
             _PriceManager = priceManager;
         }
